@@ -1,5 +1,4 @@
-print('Введите целое 4-х значное число: ')
-userinput = input()
+userinput = input('Введите целое 4-х значное число: ')
 
 usernumber = int(userinput)
 
