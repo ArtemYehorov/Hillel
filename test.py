@@ -1,8 +1,6 @@
-userinput = input('Введите целое 4-х значное число: ')
+userinput = int(input('Введите целое 4-х значное число: '))
 
-usernumber = int(userinput)
-
-print(usernumber // 1000)
-print(usernumber // 100 % 10 )
-print(usernumber // 10 % 10 )
-print(usernumber % 10 )
+print(userinput // 1000)
+print(userinput // 100 % 10 )
+print(userinput // 10 % 10 )
+print(userinput % 10 )
