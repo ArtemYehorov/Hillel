@@ -1,6 +1,4 @@
 _list1 = [1,2,3,4,]
-_list2 = []
-_list3 = [1,]
 
 print(_list1)
 
