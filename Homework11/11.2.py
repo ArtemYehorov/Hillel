@@ -1,6 +1,3 @@
-from itertools import count
-
-
 def generate_cube_numbers(end):
     count = 2
     while count ** 3 <= end:
