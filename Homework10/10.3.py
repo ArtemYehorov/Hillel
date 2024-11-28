@@ -1,5 +1,4 @@
 def is_even(digit):
-    """ Перевірка чи є парним число """
     return digit % 2 == 0
 
 assert is_even(2) == True, 'Test1'
