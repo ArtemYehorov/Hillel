@@ -13,6 +13,6 @@ class Student(Human):
         if isinstance(other, Student):
             return str(self) == str(other)
         return False
-
     def __hash__(self):
         return hash(str(self))
+
